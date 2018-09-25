@@ -19,4 +19,5 @@ public interface CarService {
 	CarModel getCarDetail(String id);
 	
 	CarModel deleteCar(String id);
+
 }
