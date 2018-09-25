@@ -1,0 +1,48 @@
+===Tutorial 3===
+1. localhost:8080/car/add?id=1&brand=Honda&type=Civic&price=500000000&amount=50
+hasilnya tidak error, pada web akan muncul tulisan add, Data Berhasil Ditambahkan
+
+2. localhost:8080/car/add?id=1&brand=Honda&type=Civic&price=200000000
+akan muncul error, karena membutuhkan parameter amount
+
+Method View Car by ID
+Jalankan program dan buka
+Pertanyaan 3:
+localhost:8080/car/add?id=2&brand=Honda&type=Mobilio&price=200000000&amount=50
+pada web akan keluar output Data Berhasil Ditambahkan
+dan ketika menjalankan localhost:8080/car/view?id=2 tanpa harus distop dan run ulang, web akan muncul data 
+View Detail
+2
+Honda
+Mobilio
+200000000
+50
+
+Pertanyaan 4: terjadi error karena archive null, karena data ini tersimpan pada arrayList bukan database, ketika kita lakukan run ulang maka data tersebut juga akan terulang
+
+Method View All
+Pertanyaan 5:
+localhost:8080/car/add?id=3&brand=Honda&type=Jazz&price=200000000&amount
+=50
+akan keluar output: Data Berhasil Ditambahkan
+
+apakah data Car tersebut muncul?
+View All
+3
+Honda
+Jazz
+200000000
+50
+
+Pertanyaan 6:
+View All
+3
+Honda
+Jazz
+200000000
+50
+4
+Honda
+Accord
+200000000
+50
